@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 
+// Funcao recebe a matriz, percorre as linhas e colunas preenchendo os valores
 void preenche_matriz(int matriz[][9]) {
     int i, j;
     for(i = 0; i < 9; i++) {
@@ -11,6 +12,7 @@ void preenche_matriz(int matriz[][9]) {
     }
 }
 
+// Funcao recebe a matriz, percorre as linhas e verifica se ha valores repetidos
 int verifica_linhas(int matriz[][9]) {
     int i = 0, j, aux = 0, cont = 0;
         for(i = 0; i < 9; i++) {
@@ -29,6 +31,7 @@ int verifica_linhas(int matriz[][9]) {
     return 1;
 }
 
+// Funcao recebe a matriz, percorre as colunas e verifica se ha valores repetidos
 int verifica_colunas(int matriz[][9]) {
      int i = 0, j, aux = 0, cont;
         for(j = 0; j < 9; j++) {
@@ -47,6 +50,7 @@ int verifica_colunas(int matriz[][9]) {
     return 1;
 }
 
+// Funcao recebe a matriz, percorre os blocos e verifica se ha valores repetidos
 int verifica_blocos(int matriz[][9]) {
     int i, j, aux, cont = 0, linha, coluna;
     for(i = 0; i < 9; i += 3) {
