@@ -8,7 +8,7 @@ int countLettersToAdd(char sequence[]) {
     // Count the occurrences of each letter in the sequence
     for (int i = 0; i < strlen(sequence); i++) {
         count[sequence[i] - 'a']++;
-    } 
+    }
 
     // Count the number of letters with odd occurrences
     for (int i = 0; i < 26; i++) {
