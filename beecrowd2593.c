@@ -1,70 +1,59 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include <string.h>
 
-typedef struct{
+#define MAX_TEXT_SIZE 10000
+#define MAX_WORDS 128
+#define MAX_WORD_LENGTH 50
 
-	char s1[200];
+void find_word_positions(char *text, char *word) {
+    int text_length = strlen(text);
+    int word_length = strlen(word);
+    int found = 0;
 
-} string;
+    for (int i = 0; i <= text_length - word_length; i++) {
+        // Verifica se a palavra começa na posição i
+        if (strncmp(&text[i], word, word_length) == 0) {
+            // Verifica se a palavra encontrada é exata (não é subpalavra)
+            if ((i == 0 || text[i - 1] == ' ') && (text[i + word_length] == ' ' || text[i + word_length] == '\0')) {
+                if (found) {
+                    printf(" ");
+                }
+                printf("%d", i);
+                found = 1;
+            }
+        }
+    }
 
-char palavra[10050];
-string texto[10050];
-string palavras[200];
+    if (!found) {
+        printf("-1");
+    }
+    printf("\n");
+}
 
-#define true 1
-#define false 0
+int main() {
+    char text[MAX_TEXT_SIZE + 1];
+    int n;
+    char words[MAX_WORDS][MAX_WORD_LENGTH + 1];
 
-int main(int argc, char **argv)
-{
+    // Lê o texto
+    fgets(text, sizeof(text), stdin);
+    // Remove o newline do final do texto
+    text[strcspn(text, "\n")] = 0;
 
-	char tmp[10050], *aux;
-	unsigned n, i, j, k;
+    // Lê o número de palavras
+    scanf("%d", &n);
+    getchar(); // Consome o newline após o número
 
-	scanf(" %[^\n]", tmp);
-	scanf("%*c%u", &n);
+    // Lê as palavras
+    for (int i = 0; i < n; i++) {
+        scanf("%s", words[i]);
+    }
 
-	for (i = 0; i < n; ++i)
-		scanf("%s", palavras[i].s1);
+    // Para cada palavra, encontre suas posições no texto
+    for (int i = 0; i < n; i++) {
+        find_word_positions(text, words[i]);
+    }
 
-	i = 0;
-	aux = strtok(tmp, " ");
-	strcpy(texto[i++].s1, aux);
-
-	do
-	{
-
-		aux = strtok(0, " ");
-		if (aux)
-			strcpy(texto[i++].s1, aux);
-
-	} while (aux);
-
-	for (k = 0; k < n; ++k)
-	{
-
-		unsigned tam = 0;
-		_Bool flag = true;
-
-		for (j = 0; j < i; ++j)
-		{
-
-			if (strcmp(texto[j].s1, palavras[k].s1) == 0)
-				if (!flag)
-					printf(" %u", tam);
-				else
-					printf("%u", tam), flag = false;
-
-			tam += strlen(texto[j].s1) + 1;
-
-		}
-
-		if (flag)
-			printf("-1\n");
-		else
-			printf("\n");
-
-	}
-
-	return 0;
-
+    return 0;
 }
