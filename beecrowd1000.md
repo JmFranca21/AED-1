@@ -13,7 +13,7 @@ Você deve imprimir a mensagem "Hello World!" e em seguida o final de linha, con
 
 **Exemplo de Entrada**  
 
-Exemplo de Saída
+**Exemplo de Saída**  
 Hello World!
 
 [Clique aqui para a resolução.](https://github.com/JmFranca21/AED1/blob/main/beecrowd1000.c)
