@@ -18,7 +18,7 @@ Cada página de exercício terá, respectivamente, um link para a resolução.)*
 
 - Beecrowd 1001 | [Extremamente Básico](beecrowd1001.md)
 
-- Beecrowd 1002 | [Área do Círculo](beecorwd1002.md)
+- Beecrowd 1002 | [Área do Círculo](beecrowd1002.md)
 
 - Beecrowd 1003 | [Soma Simples](beecrowd1003.md)
 
