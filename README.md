@@ -28,4 +28,24 @@ Cada página de exercício terá, respectivamente, um link para a resolução.)*
 
 - Beecrowd 1005 | [Média 1](beecrowd1005.md)  
 
-- Beecrowd 1006 | [Média 2](beecrowd1006.md)
+- Beecrowd 1006 | [Média 2](beecrowd1006.md)  
+
+- Beecrowd 1007 | [Diferença](beecrowd1007.md)  
+
+- Beecrowd 1008 | [Salário com Bônus](beecrowd1008.md)  
+
+- Beecrowd 1009 | [Salário com Bônus](beecrowd1009.md)
+  
+- Beecrowd 1010 | [Salário com Bônus](beecrowd1010.md)
+
+- Beecrowd 1012 | [Salário com Bônus](beecrowd1012.md)
+
+- Beecrowd 1018 | [Salário com Bônus](beecrowd1018.md)
+
+- Beecrowd 1019 | [Salário com Bônus](beecrowd1019.md)
+
+- Beecrowd 1020 | [Salário com Bônus](beecrowd1020.md)
+
+- Beecrowd 1022 | [Salário com Bônus](beecrowd1022.md)
+
+- Beecrowd 1025 | [Salário com Bônus](beecrowd1025.md)  
