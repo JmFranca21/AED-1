@@ -32,20 +32,20 @@ Cada página de exercício terá, respectivamente, um link para a resolução.)*
 
 - Beecrowd 1007 | [Diferença](beecrowd1007.md)  
 
-- Beecrowd 1008 | [Salário com Bônus](beecrowd1008.md)  
+- Beecrowd 1008 | [Salário](beecrowd1008.md)  
 
 - Beecrowd 1009 | [Salário com Bônus](beecrowd1009.md)
   
-- Beecrowd 1010 | [Salário com Bônus](beecrowd1010.md)
+- Beecrowd 1010 | [Cálculo Simples](beecrowd1010.md)
 
-- Beecrowd 1012 | [Salário com Bônus](beecrowd1012.md)
+- Beecrowd 1012 | [Área](beecrowd1012.md)
 
-- Beecrowd 1018 | [Salário com Bônus](beecrowd1018.md)
+- Beecrowd 1018 | [Cédulas](beecrowd1018.md)
 
-- Beecrowd 1019 | [Salário com Bônus](beecrowd1019.md)
+- Beecrowd 1019 | [Conversão de Tempo](beecrowd1019.md)
 
-- Beecrowd 1020 | [Salário com Bônus](beecrowd1020.md)
+- Beecrowd 1020 | [Idade em Dias](beecrowd1020.md)
 
-- Beecrowd 1022 | [Salário com Bônus](beecrowd1022.md)
+- Beecrowd 1022 | [TDA Racional](beecrowd1022.md)
 
-- Beecrowd 1025 | [Salário com Bônus](beecrowd1025.md)  
+- Beecrowd 1025 | [Onde está o Mármore?](beecrowd1025.md)  
