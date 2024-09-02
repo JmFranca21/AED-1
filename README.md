@@ -50,12 +50,12 @@ Cada página de exercício terá, respectivamente, um link para a resolução.)*
 
 - Beecrowd 1025 | [Onde está o Mármore?](beecrowd1025.md)  
 
-- Beecrowd 1035 | [Onde está o Mármore?](beecrowd1035.md)
+- Beecrowd 1035 | [Teste de Seleção 1](beecrowd1035.md)
 
-- Beecrowd 1038 | [Onde está o Mármore?](beecrowd1038.md)
+- Beecrowd 1038 | [Lanche](beecrowd1038.md)
 
-- Beecrowd 1045 | [Onde está o Mármore?](beecrowd1045.md)
+- Beecrowd 1045 | [Tipos de Triângulos](beecrowd1045.md)
 
-- Beecrowd 1062 | [Onde está o Mármore?](beecrowd1062.md)
+- Beecrowd 1062 | [Trilhos](beecrowd1062.md)
 
-- Beecrowd 1068 | [Onde está o Mármore?](beecrowd1068.md)
+- Beecrowd 1068 | [Balanço de Parênteses I](beecrowd1068.md)
