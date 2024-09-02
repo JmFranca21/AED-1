@@ -46,6 +46,16 @@ Cada página de exercício terá, respectivamente, um link para a resolução.)*
 
 - Beecrowd 1020 | [Idade em Dias](beecrowd1020.md)
 
-- Beecrowd 1022 | [TDA Racional](beecrowd1022.md)
+- Beecrowd 1022 | [TDA Racional](beecrowd1022.md)  
 
 - Beecrowd 1025 | [Onde está o Mármore?](beecrowd1025.md)  
+
+- Beecrowd 1035 | [Onde está o Mármore?](beecrowd1035.md)
+
+- Beecrowd 1038 | [Onde está o Mármore?](beecrowd1038.md)
+
+- Beecrowd 1045 | [Onde está o Mármore?](beecrowd1045.md)
+
+- Beecrowd 1062 | [Onde está o Mármore?](beecrowd1062.md)
+
+- Beecrowd 1068 | [Onde está o Mármore?](beecrowd1068.md)
